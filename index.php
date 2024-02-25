@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,7 +12,7 @@
 
     <img src="src/assets/LOGO.png" alt="logo" style="width: 90px;">
     <a href="">Sobre</a>
-    <a href="">Planos de Viagens</a>
+    <a href="src/pages/pacotes_pagina.php">Planos de Viagens</a>
     <a href="">Fale Conosco</a>
   </header>
   <article>
@@ -24,15 +21,6 @@
       <p class="local">estamos localizados Av. Castro Alves, 62 - Somenzari, Marília - SP, 17506-000 </p>
     </section>
     
-    <section class="viagens">
-      <p class="title">Viage Para</p>
-        <div class="cards">
-           <div class="card"></div>
-           <div class="card"></div>
-           <div class="card"></div>
-           <div class="card"></div>
-        </div>
-    </section>
 
 </body>
 </html>
