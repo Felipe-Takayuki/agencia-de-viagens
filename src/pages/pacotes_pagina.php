@@ -12,36 +12,72 @@
   <header>
 
     <img src="../assets/LOGO.png" alt="logo" style="width: 90px;">
-    <a href="/a.html">Sobre</a>
+    <a href="/agencia_de_viagens/index.php">Sobre</a>
     <a href="">Planos de Viagens</a>
     <a href="">Fale Conosco</a>
   </header>
 
     <section class="viagens">
-      <p class="title">Viage Para</p>
-        <div class="cards">
-          <a href="">
+      <p class="title">Pacotes de viagem</p>
+      <div class="cards">
+          <a href="detalhes.php?pacote=gramado">
             <div class="card">
               <img src="../assets/imagem dos cards/Gramado.png" alt="Gramado">
-              <p>Gramado</p>
+              <div class="info-card">
+                <h1 class="title-info-card">Gramado</h1>
+                <h3 class="origin-city-info-card">Origem: Marília</h3>
+
+                <h3>Inclusos</h3>
+                  <li>Hospedagem para 7 dias</li>
+                  <li>Voo ida e volta</li>
+
+                <h1>R$ 1750</h1>
+              </div>
             </div>
           </a>
-          <a href="">
+          <a href="detalhes.php?pacote=jericoara">
             <div class="card">
               <img src="../assets/imagem dos cards/Jericoacoara.png" alt="Jericoara">
-              <p>Jericoara</p>
+              <div class="info-card">
+                <h1 class="title-info-card">Jericoacoara</h1>
+                <h3 class="origin-city-info-card">Origem: Marília</h3>
+
+                <h3>Inclusos</h3>
+                  <li>Hospedagem para 7 dias</li>
+                  <li>Voo ida e volta</li>
+
+                <h1>R$ 1500</h1>
+              </div>
              </div>
           </a>
-          <a href="">
+          <a href="detalhes.php?pacote=fernando_de_noronha">
             <div class="card">
               <img src="../assets/imagem dos cards/Fernando de Noronha.png" alt="Fernando de Noronha">
-              <p>Fernando de Noronha</p>
+              <div class="info-card">
+                <h1 class="title-info-card">Fernando de Noronha</h1>
+                <h3 class="origin-city-info-card">Origem: Marília</h3>
+
+                <h3>Inclusos</h3>
+                  <li>Hospedagem para 7 dias</li>
+                  <li>Voo ida e volta</li>
+
+                <h1>R$ 7500</h1>
+              </div>
              </div>
           </a>
-          <a href="">
+          <a href="detalhes.php?pacote=paranapiacaba">
             <div class="card">
               <img src="../assets/imagem dos cards/Paranapiacaba.png" alt="Paranapiacaba">
-              <p>Paranapiacaba</p>
+              <div class="info-card">
+                <h1 class="title-info-card">Paranapiacaba</h1>
+                <h3 class="origin-city-info-card">Origem: Marília</h3>
+
+                <h3>Inclusos</h3>
+                  <li>Hospedagem para 7 dias</li>
+                  <li>Voo ida e volta</li>
+
+                <h1>R$ 1200</h1>
+              </div>
              </div>
           </a>
 
