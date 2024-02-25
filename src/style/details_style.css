@@ -1,0 +1,31 @@
+body{
+    background-color: #0AACAC;
+}
+p{
+    width: 800px;
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.details-title{
+    margin-left: 10px;
+    font-size: 40px;
+}
+.details-price{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.details-subtitle{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.details-includes{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
