@@ -13,8 +13,8 @@
 
     <img src="../assets/LOGO.png" alt="logo" style="width: 90px;">
     <a href="/agencia_de_viagens/index.php">Sobre</a>
-    <a href="">Planos de Viagens</a>
-    <a href="">Fale Conosco</a>
+    <a href="../pages/pacotes_pagina.php">Planos de Viagens</a>
+    <a href="../pages/fale_conosco.php">Fale Conosco</a>
   </header>
 
     <section class="viagens">
@@ -83,7 +83,11 @@
 
         </div>
     </section>
-
+    <!-- <footer>
+    <img src="../assets/LOGO.png">
+    <a href="">Código</a>
+    <p>Site sem fins lucrativos apenas para estudo, feito por Felipe Takahashi</p>
+  </footer> -->
 </body>
 </html>
 
