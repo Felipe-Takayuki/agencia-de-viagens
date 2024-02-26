@@ -1,0 +1,62 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 90%;
+    color: black;
+    height: 25px;
+    border-radius: 16px;
+    padding: 5px 5px 5px 5px;
+    border-color: transparent;
+}
+textarea{
+    color: black;
+    width: 90%;
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+    border-color: transparent;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+}
+
+#fale-conosco{
+    
+    width: 60%;
+    height: 100%;
+    background-color: #087a7a;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+article{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_form{
+    font-size: 20px;
+    font-weight: 700;
+    width: 40%;
+    height: 50px;
+    background-color: #0AACAC;
+    margin-top: 10px;
+    color: white;
+}
+#dados{
+display: flex;
+align-items: center;
+width: 30%;
+}

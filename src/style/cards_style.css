@@ -3,6 +3,7 @@
     display: flex;
     align-items: start;
     justify-content: start;
+    padding-bottom: 1000px;
     background-color: #9FC8C8;
 }
 .viagens > p {
@@ -13,6 +14,7 @@
 .cards{
     display: grid;
     margin-left: 90px;
+
     grid-template-columns: repeat(2, 1fr);
 }
 .cards > a {
@@ -58,4 +60,8 @@
     font-weight: 400;
     color: rgb(232, 232, 232);
     margin-bottom: 10px;
+}
+body{
+    margin-bottom: 200px; 
+
 }
