@@ -9,18 +9,13 @@
     <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <header>
-
-    <img src="../assets/LOGO.png" alt="logo" style="width: 90px;">
-    <a href="/agencia_de_viagens/index.php">Sobre</a>
-    <a href="../pages/pacotes_pagina.php">Planos de Viagens</a>
-    <a href="">Fale Conosco</a>
+    <header>
+        <img src="../assets/LOGO.png" alt="logo" style="width: 90px;">
+        <a href="/agencia_de_viagens/index.php">Sobre</a>
+        <a href="../pages/pacotes_pagina.php">Planos de Viagens</a>
+        <a href="../pages/fale_conosco.php">Fale Conosco</a>
   </header>
-</body>
-</html>
-
-
-<?php
+  <?php
 if (isset($_GET['pacote'])) {
     $pacote = $_GET['pacote'];
 
@@ -74,3 +69,13 @@ function obterInformacoesDoPacote($pacote) {
     return isset($pacotes[$pacote]) ? $pacotes[$pacote] : null;
 }
 ?>
+  <footer>
+    <img src="../assets/LOGO.png">
+    <a href="">Código</a>
+    <p>Site sem fins lucrativos apenas para estudo, feito por Felipe Takahashi</p>
+  </footer>
+</body>
+</html>
+
+
+
